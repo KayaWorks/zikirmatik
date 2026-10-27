@@ -1,14 +1,16 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
 }
 
 // Upload key: read from environment (CI) or keystore.properties (local), never committed.
-val ksFile = System.getenv("KEYSTORE_FILE") ?: rootProject.file("keystore.properties").let { f ->
-    if (f.exists()) java.util.Properties().apply { f.inputStream().use { load(it) } }.getProperty("storeFile") else null
+val localKeys = Properties().apply {
+    val f = rootProject.file("keystore.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
 }
-fun secret(env: String, prop: String): String? = System.getenv(env) ?: rootProject.file("keystore.properties").let { f ->
-    if (f.exists()) java.util.Properties().apply { f.inputStream().use { load(it) } }.getProperty(prop) else null
-}
+fun secret(env: String, prop: String): String? = System.getenv(env) ?: localKeys.getProperty(prop)
+val ksFile = secret("KEYSTORE_FILE", "storeFile")
 
 android {
     namespace = "io.github.kayaworks.zikirmatik"
