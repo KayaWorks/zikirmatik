@@ -1,0 +1,11 @@
+App name: Tally Counter - Zikirmatik
+Short description: Simple, ad-free tally counter. Set a target, tap, count.
+Full description:
+A clean, ad-free tally counter for dhikr, prayer beads or counting anything.
+• One big button to count
+• Targets: 33, 99, 100, 1000 or custom
+• Vibration and round count when you hit the target
+• −1 to undo a mistaken tap
+• Total count kept even after reset
+• Light and dark theme
+• No internet permission, no ads, no data collection

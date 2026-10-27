@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zikirmatik Sayaç</string>
+    <string name="tap">Say</string>
+    <string name="tap_description">Sayacı bir artır</string>
+    <string name="minus">−1</string>
+    <string name="reset">Sıfırla</string>
+    <string name="cancel">Vazgeç</string>
+    <string name="reset_title">Sayaç sıfırlansın mı?</string>
+    <string name="reset_message">Geçerli sayı sıfırlanır. Toplam sayı korunur.</string>
+    <string name="target">Hedef</string>
+    <string name="target_button">Hedef: %1$d</string>
+    <string name="no_target">Hedef yok</string>
+    <string name="custom_target">Özel hedef</string>
+    <string name="custom_target_hint">Örneğin 500</string>
+    <string name="target_format">%1$d / %2$d  ·  %3$d tur</string>
+    <string name="total_format">Toplam: %1$d</string>
+</resources>

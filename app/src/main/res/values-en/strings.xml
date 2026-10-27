@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tally Counter</string>
+    <string name="tap">Count</string>
+    <string name="tap_description">Increase the counter by one</string>
+    <string name="minus">−1</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_title">Reset the counter?</string>
+    <string name="reset_message">The current count goes back to zero. The total is kept.</string>
+    <string name="target">Target</string>
+    <string name="target_button">Target: %1$d</string>
+    <string name="no_target">No target</string>
+    <string name="custom_target">Custom target</string>
+    <string name="custom_target_hint">For example 500</string>
+    <string name="target_format">%1$d / %2$d  ·  %3$d rounds</string>
+    <string name="total_format">Total: %1$d</string>
+</resources>

@@ -1,0 +1,21 @@
+Uygulama adı (en fazla 30 karakter):
+Zikirmatik Sayaç
+
+Kısa açıklama (en fazla 80 karakter):
+Basit, reklamsız zikirmatik ve sayaç. Hedef belirle, dokun, say.
+
+Tam açıklama:
+Zikirmatik Sayaç, zikir, tesbih veya herhangi bir şeyi saymak için sade ve reklamsız bir sayaçtır.
+
+• Büyük "Say" düğmesiyle tek dokunuşta sayım
+• 33, 99, 100, 1000 veya özel hedef belirleme
+• Hedefe ulaşınca titreşimle bildirim ve tur sayısı
+• Yanlış dokunuşları geri almak için −1
+• Sıfırladığında bile korunan toplam sayı
+• Açık ve koyu tema desteği
+• İnternet izni yok, reklam yok, veri toplamaz
+
+Sayınız uygulamayı kapatsanız da kaybolmaz.
+
+Kategori: Araçlar (Tools)  ·  Etiketler: sayaç, zikirmatik
+İletişim e-postası: [GELİŞTİRİCİ E-POSTANIZ]
