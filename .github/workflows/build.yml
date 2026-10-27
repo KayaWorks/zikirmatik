@@ -43,6 +43,13 @@ jobs:
             exit 1
           }
 
+      - name: Verify bundle signature
+        if: env.KEYSTORE_FILE != ''
+        run: |
+          out=$(jarsigner -verify -verbose -certs app/build/outputs/bundle/release/app-release.aab)
+          echo "$out" | grep -q "jar verified" || { echo "::error::Bundle is not signed"; exit 1; }
+          echo "::notice::Signed AAB: $(echo "$out" | grep -m1 -o 'CN=[^,]*'), versionCode ${{ github.run_number }}"
+
       - uses: actions/upload-artifact@v4
         with:
           name: zikirmatik-release-aab
